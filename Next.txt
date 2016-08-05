@@ -1,0 +1,7 @@
+﻿Loop, 5
+{
+    Send, {Tab}
+    Sleep, 20
+}
+Send, {Enter}
+Sleep, 20

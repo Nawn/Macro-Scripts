@@ -1,0 +1,21 @@
+﻿Loop
+{
+    CoordMode, Pixel, Window
+    ImageSearch, FoundX, FoundY, 9, 62, 1420, 185, C:\Users\PFS2\AppData\Roaming\MacroCreator\Screenshots\Screen_20160725131752.png
+    CenterImgSrchCoords("C:\Users\PFS2\AppData\Roaming\MacroCreator\Screenshots\Screen_20160725131752.png", FoundX, FoundY)
+    If ErrorLevel = 0
+    	Click, %FoundX%, %FoundY% Left, 1
+    Sleep, 150
+}
+Until ErrorLevel = 0
+Sleep, 50
+Loop
+{
+    CoordMode, Pixel, Window
+    ImageSearch, FoundX, FoundY, 202, 52, 1147, 360, C:\Users\PFS2\AppData\Roaming\MacroCreator\Screenshots\Screen_20160801114151.png
+    CenterImgSrchCoords("C:\Users\PFS2\AppData\Roaming\MacroCreator\Screenshots\Screen_20160801114151.png", FoundX, FoundY)
+    If ErrorLevel = 0
+    	Click, %FoundX%, %FoundY% Left, 1
+    Sleep, 50
+}
+Until ErrorLevel = 0
